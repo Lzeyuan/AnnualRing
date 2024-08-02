@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+# vscode
+.vscode
+# clangd
+.cache
+# cmake
+build
+# 生成目录
+bin
