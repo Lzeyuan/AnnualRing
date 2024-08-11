@@ -10,18 +10,6 @@ add_executable(
     main.cpp
 )
 
-# 添加lua库
-set(LUA_PATH "${CMAKE_SOURCE_DIR}/3rd/lua-5.4.7")
-target_include_directories(    
-    ${TARGET_NAME}
-    PRIVATE
-    ${LUA_PATH}/src
-)
-target_link_directories(
-    ${TARGET_NAME}
-    PRIVATE
-    ${LUA_PATH}/src
-)
 target_link_libraries(
     ${TARGET_NAME}
     PRIVATE

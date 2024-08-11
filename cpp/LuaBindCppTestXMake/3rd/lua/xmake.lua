@@ -1,0 +1,5 @@
+target("lua")
+    set_kind("phony")
+    add_includedirs("src",{public=true})
+    add_linkdirs("src",{public=true})
+    add_links("dl", "lua",{public=true})
