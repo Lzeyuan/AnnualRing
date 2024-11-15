@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qss/MainPage.qss</file>
+        <file>qss/Button.qss</file>
+    </qresource>
+</RCC>

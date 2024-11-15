@@ -1,0 +1,24 @@
+/* 导航栏导航按钮 */
+QWidget.main-window QPushButton.test-button {
+  font-size: 22px;  
+  font-family: "Microsoft YaHei";
+  font-weight: 400;
+  color: #FF66FF;
+  background-color: #00FFFF;
+  border: none;
+  border-radius: 0px;
+  line-height: 25px;
+}
+
+QWidget.main-window QPushButton.test-button:hover {
+  color: #F00000;
+  border: none;
+}
+
+QWidget.main-window QPushButton.test-button:pressed,
+QWidget.main-window QPushButton.test-button:checked {
+  color: #1777FF; 
+  font-weight: 400;
+  border: none;
+  border-bottom: 2px solid #1777FF;
+}

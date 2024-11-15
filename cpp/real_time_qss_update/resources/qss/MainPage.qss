@@ -1,0 +1,35 @@
+/* 主页背景 */
+QWidget.main-window {
+    border: 1px solid black;
+    background-color: #AA11AA;
+}
+
+/* 导航栏背景 */
+QWidget#MainPage QWidget#navigation_background_ {
+  background-color: white;
+}
+
+/* 导航栏导航按钮 */
+QWidget#MainPage QPushButton.nav-button {
+  font-size: 22px;  
+  font-family: "Microsoft YaHei";
+  font-weight: 400;
+  color: #666666;
+  background-color: rgba(0,0,0,0);
+  border: none;
+  border-radius: 0px;
+  line-height: 25px;
+}
+
+QWidget#MainPage QPushButton.nav-button:hover {
+  color: #1777FF;
+  border: none;
+}
+
+QWidget#MainPage QPushButton.nav-button:pressed,
+QWidget#MainPage QPushButton.nav-button:checked {
+  color: #1777FF; 
+  font-weight: 400;
+  border: none;
+  border-bottom: 2px solid #1777FF;
+}
